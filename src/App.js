@@ -81,6 +81,7 @@ class App extends Component {
                   <h3 className="product__title">{card.productName}</h3>
                   <p className="card__family">{card.productFamily}</p>
                   <p className="card__brand">{card.brand}</p>
+                  <p className="card__brand">{card.shops&& card.shops.join(', ')}</p>
                 </div>
               </div>
             );
