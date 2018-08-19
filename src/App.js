@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import "./App.css";
 import { cards } from './data';
+import Fuse from 'fuse.js';
 
 const Wrapper = styled.div`
 margin:0;
@@ -13,8 +14,46 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      cards
+      cards,
+      searchString: ''
     };
+  }
+
+  componentDidMount() {
+
+    const options = {
+      shouldSort: true,
+      tokenize: true,
+      matchAllTokens: true,
+      findAllMatches: true,
+      threshold: 0.3,
+      location: 0,
+      distance: 100,
+      maxPatternLength: 32,
+      minMatchCharLength: 1,
+      keys: [
+        "productName",
+        "shops",
+        "productFamily",
+        "brand"
+    ]
+    };
+
+    this.searchIndex = new Fuse(cards, options);
+    
+  }
+
+  handleSearch = (searchText) => {
+    if(searchText) {
+      this.setState({
+        cards: this.searchIndex.search(searchText)
+      });
+    } else {
+      this.setState({
+        cards
+      });
+    }
+
   }
   render() {
     return (
@@ -24,7 +63,7 @@ class App extends Component {
             <h2>Plastic-Free</h2>
             <div className="search-container">
             <label htmlFor="search"></label>
-            <input type="text" id="search"/>
+            <input type="text" id="search" onChange={(event) => this.handleSearch(event.target.value)}/>
             <button className="search"></button>
             </div>
             
