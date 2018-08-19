@@ -1,26 +1,5 @@
-.App{
 
-}
-.header{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-auto-flow: column;
-  align-items: center;
-  grid-gap: 10px;
-  background-color: #388E3C;
-  color: white;
-  padding: 10px;
-}
-@media(max-width:420px){
-  .header{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    background-color: #388E3C;
-    color: white;
-    padding: 10px;
-  }
-}
+
 .menu__item{
   display: inline;
   background: rgba(128, 128, 128, 0.212);
@@ -40,12 +19,7 @@
   background-color: ghostwhite;
   color: black;
 }
-.footer{
-  width:98%;
-  border-top: 4px solid  #388E3C;
-  padding: 10px;
-  margin:20px auto;
-}
+
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

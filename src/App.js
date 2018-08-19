@@ -10,6 +10,52 @@ width:100%;
 height: 100vh;
 `;
 
+const Header = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-gap: 10px;
+  background-color: #388E3C;
+  color: white;
+  padding: 10px;
+
+  @media(max-width:600px){
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+`;
+
+const Footer = styled.div`
+  width:98%;
+  border-top: 4px solid  #388E3C;
+  padding: 10px;
+  margin:20px auto;
+`;
+
+const Container = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin: 20px;
+`;
+
+const Card = styled.div`
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-gap: 10px;
+  align-items: center;
+  font-weight: 100;
+`;
+
+const Link = styled.a`
+  text-decoration: none;
+`;
+
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -56,59 +102,57 @@ class App extends Component {
 
   }
   render() {
+    const { cards } = this.state;
     return (
       <Wrapper>
-        <div className="header">
+        <Header>
           <div className="header-container">
-            <h2>Plastic-Free</h2>
+            <h2>Etsi ruoka, josta tulee vähemmän muovia!</h2>
             <div className="search-container">
             <label htmlFor="search"></label>
-            <input type="text" id="search" onChange={(event) => this.handleSearch(event.target.value)}/>
-            <button className="search"></button>
+            <input type="text" onChange={(event) => this.handleSearch(event.target.value)}/>
+            <div className="search"></div>
             </div>
             
           </div>
-          <button className="menu__item">Home</button>
-          <button className="menu__item">About</button>
-          <button className="menu__item">Info</button>
-        </div>
-        <div className="container">
-          {this.state.cards.map((card,i) => {
+        </Header>
+        <Container>
+          {cards && cards.map((card) => {
+            const { id, img, productName, productFamily, brand, shops} = card
             return (
-              <div className="card" key={i}>
-                <img className="card__img" src={card.img} alt={card.productName} />
+              <Card key={id}>
+                <img className="card__img" src={img} alt={productName} />
                 <div className="card__details">
-                  <h3 className="product__title">{card.productName}</h3>
-                  <p className="card__family">{card.productFamily}</p>
-                  <p className="card__brand">{card.brand}</p>
-                  <p className="card__brand">{card.shops&& card.shops.join(', ')}</p>
+                  <h3 className="product__title">{productName}</h3>
+                  <p className="card__family">{productFamily}</p>
+                  <p className="card__brand">{brand}</p>
+                  <p className="card__brand">{shops&& shops.join(', ')}</p>
                 </div>
-              </div>
+              </Card>
             );
           })}
-        </div>
-        <footer className="footer">
+        </Container>
+        <Footer>
           <p className="footer-text">
             Plastic-Free is a free and open source{" "}
-            <a href="https://github.com/niloomotita" className="link">
+            <Link href="https://github.com/niloomotita">
               {" "}
               (github){" "}
-            </a>
+            </Link>
             service that helps you pick plastic-free packaging while shopping
-            <a
+            <Link
               href="https://github.com/niloomotita/"
               target="blank"
-              className="link"
             >
               {" "}
               Niloo
-            </a>{" "}
+            </Link>{" "}
             and{" "}
-            <a href="https://github.com/omidfi" target="blank" className="link">
+            <Link href="https://github.com/albacoretuna" target="blank" >
               Omid.
-            </a>{" "}
+            </Link>{" "}
           </p>
-        </footer>
+        </Footer>
       </Wrapper>
     );
   }
