@@ -39,6 +39,7 @@ const Container = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
   margin: 20px;
+  min-height: 60vh;
 `;
 
 const Card = styled.div`
@@ -110,14 +111,15 @@ class App extends Component {
             <h2>Löydä tuotteita, joista tulee vähemmän muovia!</h2>
             <div className="search-container">
             <label htmlFor="search"></label>
-            <input type="text" onChange={(event) => this.handleSearch(event.target.value)}/>
+            <input placeholder="suodattaa. esim. banaani" type="text" onChange={(event) => this.handleSearch(event.target.value)}/>
             <div className="search"></div>
             </div>
             
           </div>
         </Header>
         <Container>
-          {cards && cards.map((card) => {
+          
+          {cards.map((card) => {
             const { id, img, productName, productFamily, brand, shops} = card
             return (
               <Card key={id}>
@@ -131,6 +133,7 @@ class App extends Component {
               </Card>
             );
           })}
+          {cards.length === 0 && <p>Ei tuloksia</p>}
         </Container>
         <Footer>
 <p>Tämä on vapaehtoinen palvelu! Kerro meille jos tiedät tuotteita joista tulee vähemmän muovia <a href="https://goo.gl/forms/n7MZSDlw2KOSK1b62">tämän lomakella</a></p>
