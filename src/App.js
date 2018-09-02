@@ -107,7 +107,7 @@ class App extends Component {
       <Wrapper>
         <Header>
           <div className="header-container">
-            <h2>Etsi ruoka, josta tulee vähemmän muovia!</h2>
+            <h2>Löydä tuotteita, joista tulee vähemmän muovia!</h2>
             <div className="search-container">
             <label htmlFor="search"></label>
             <input type="text" onChange={(event) => this.handleSearch(event.target.value)}/>
@@ -133,24 +133,12 @@ class App extends Component {
           })}
         </Container>
         <Footer>
+<p>Tämä on vapaehtoinen palvelu! Kerro meille jos tiedät tuotteita joista tulee vähemmän muovia <a href="https://goo.gl/forms/n7MZSDlw2KOSK1b62">tämän lomakella</a></p>
           <p className="footer-text">
-            Plastic-Free is a free and open source{" "}
-            <Link href="https://github.com/niloomotita">
+            <Link href="https://github.com/minimizeplastic">
               {" "}
               (github){" "}
             </Link>
-            service that helps you pick plastic-free packaging while shopping
-            <Link
-              href="https://github.com/niloomotita/"
-              target="blank"
-            >
-              {" "}
-              Niloo
-            </Link>{" "}
-            and{" "}
-            <Link href="https://github.com/albacoretuna" target="blank" >
-              Omid.
-            </Link>{" "}
           </p>
         </Footer>
       </Wrapper>
