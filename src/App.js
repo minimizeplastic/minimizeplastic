@@ -111,7 +111,7 @@ class App extends Component {
             <h2>Löydä tuotteita, joista tulee vähemmän muovia!</h2>
             <div className="search-container">
             <label htmlFor="search"></label>
-            <input placeholder="suodattaa. esim. banaani" type="text" onChange={(event) => this.handleSearch(event.target.value)}/>
+            <input placeholder="suodataa esim. pavu" type="text" onChange={(event) => this.handleSearch(event.target.value)}/>
             <div className="search"></div>
             </div>
             
@@ -136,7 +136,7 @@ class App extends Component {
           {cards.length === 0 && <p>Ei tuloksia</p>}
         </Container>
         <Footer>
-<p>Tämä on vapaehtoinen palvelu! Kerro meille jos tiedät tuotteita joista tulee vähemmän muovia <a href="https://goo.gl/forms/n7MZSDlw2KOSK1b62">tämän lomakella</a></p>
+<p>Kerro meille tällä lomakkeella, jos tiedät tuotteita, joista tulee vähemmän muovia <a href="https://goo.gl/forms/n7MZSDlw2KOSK1b62">tämän lomakella</a></p>
           <p className="footer-text">
             <Link href="https://github.com/minimizeplastic">
               {" "}
