@@ -88,7 +88,7 @@ class App extends Component {
           {cards.length === 0 && <p>Ei tuloksia</p>}
         </Container>
         <Footer>
-<p>Kerro meille tällä lomakkeella, jos tiedät tuotteita, joista tulee vähemmän muovia <a href="https://goo.gl/forms/n7MZSDlw2KOSK1b62">tämän lomakella</a></p>
+          <p>Kerro meille tällä lomakkeella, jos tiedät tuotteita, joista tulee vähemmän muovia <a href="https://goo.gl/forms/n7MZSDlw2KOSK1b62">tämän lomakella</a></p>
           <p className="footer-text">
             <Link href="https://github.com/minimizeplastic">
               {" "}
