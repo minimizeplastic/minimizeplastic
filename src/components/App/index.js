@@ -67,9 +67,9 @@ class App extends Component {
           </div>
         </Header>
 
-        <Container>
-          <h2 className="container__title">Löydä tuotteita, joista tulee vähemmän muovia!</h2>
+        <h2 className="container__title">Löydä tuotteita, joista tulee vähemmän muovia!</h2>
 
+        <Container>
           {cards.map((card) => {
             const { id, img, productName, productFamily, brand, shops} = card
             return (

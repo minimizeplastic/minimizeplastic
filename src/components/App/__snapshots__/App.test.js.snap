@@ -32,14 +32,14 @@ exports[`<App /> with Snapshot Testing renders the same way 1`] = `
       </div>
     </div>
   </div>
+  <h2
+    className="container__title"
+  >
+    Löydä tuotteita, joista tulee vähemmän muovia!
+  </h2>
   <div
     className="sc-bwzfXH bXDeqZ"
   >
-    <h2
-      className="container__title"
-    >
-      Löydä tuotteita, joista tulee vähemmän muovia!
-    </h2>
     <div
       className="sc-ifAKCX lltaSK"
     >
