@@ -19,7 +19,6 @@ class App extends Component {
   }
 
   componentDidMount() {
-
     const options = {
       shouldSort: true,
       tokenize: true,
@@ -39,7 +38,6 @@ class App extends Component {
     };
 
     this.searchIndex = new Fuse(cards, options);
-
   }
 
   handleSearch = (searchText) => {
@@ -52,8 +50,8 @@ class App extends Component {
         cards
       });
     }
-
   }
+
   render() {
     const { cards } = this.state;
     return (
@@ -66,9 +64,9 @@ class App extends Component {
             <input placeholder="hae tästä esim. pavut" type="text" onChange={(event) => this.handleSearch(event.target.value)}/>
             <div className="search"></div>
             </div>
-
           </div>
         </Header>
+
         <Container>
           <h2 className="container__title">Löydä tuotteita, joista tulee vähemmän muovia!</h2>
 
@@ -88,8 +86,12 @@ class App extends Component {
           })}
           {cards.length === 0 && <p>Ei tuloksia</p>}
         </Container>
+
         <Footer>
-          <p>Kerro meille <a href="https://goo.gl/forms/n7MZSDlw2KOSK1b62">palautelomakkeella</a>, jos tiedät tuotteita, joista tulee vähemmän muovia.</p>
+          <p>
+            Kerro meille <a href="https://goo.gl/forms/n7MZSDlw2KOSK1b62">palautelomakkeella</a>,
+            jos tiedät tuotteita, joista tulee vähemmän muovia.
+          </p>
           <p className="footer-text">
             <Link href="https://github.com/minimizeplastic">
               {" "}
