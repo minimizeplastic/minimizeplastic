@@ -10,9 +10,11 @@ exports[`<App /> with Snapshot Testing renders the same way 1`] = `
     <div
       className="header-container"
     >
-      <h2>
-        Löydä tuotteita, joista tulee vähemmän muovia!
-      </h2>
+      <h1
+        className="header__title"
+      >
+        Minimoi Muovi
+      </h1>
       <div
         className="search-container"
       >
@@ -21,7 +23,7 @@ exports[`<App /> with Snapshot Testing renders the same way 1`] = `
         />
         <input
           onChange={[Function]}
-          placeholder="suodataa esim. pavu"
+          placeholder="hae tästä esim. pavut"
           type="text"
         />
         <div
@@ -33,6 +35,11 @@ exports[`<App /> with Snapshot Testing renders the same way 1`] = `
   <div
     className="sc-bwzfXH bXDeqZ"
   >
+    <h2
+      className="container__title"
+    >
+      Löydä tuotteita, joista tulee vähemmän muovia!
+    </h2>
     <div
       className="sc-ifAKCX lltaSK"
     >
@@ -929,12 +936,13 @@ exports[`<App /> with Snapshot Testing renders the same way 1`] = `
     className="sc-bdVaJa bNcPNg"
   >
     <p>
-      Kerro meille tällä lomakkeella, jos tiedät tuotteita, joista tulee vähemmän muovia 
+      Kerro meille 
       <a
         href="https://goo.gl/forms/n7MZSDlw2KOSK1b62"
       >
-        tämän lomakella
+        palautelomakkeella
       </a>
+      , jos tiedät tuotteita, joista tulee vähemmän muovia.
     </p>
     <p
       className="footer-text"
@@ -944,7 +952,7 @@ exports[`<App /> with Snapshot Testing renders the same way 1`] = `
         href="https://github.com/minimizeplastic"
       >
          
-        (github)
+        (GitHub)
          
       </a>
     </p>

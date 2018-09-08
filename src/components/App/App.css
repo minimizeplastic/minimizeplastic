@@ -103,3 +103,11 @@ a {
     font-size: 17px;
   }
 }
+
+.header__title {
+  font-size: 24px;
+}
+
+.container__title {
+  font-size: 18px;
+}

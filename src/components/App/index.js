@@ -60,16 +60,17 @@ class App extends Component {
       <Wrapper>
         <Header>
           <div className="header-container">
-            <h2>Löydä tuotteita, joista tulee vähemmän muovia!</h2>
+            <h1 className="header__title">Minimoi Muovi</h1>
             <div className="search-container">
             <label htmlFor="search"></label>
-            <input placeholder="suodataa esim. pavu" type="text" onChange={(event) => this.handleSearch(event.target.value)}/>
+            <input placeholder="hae tästä esim. pavut" type="text" onChange={(event) => this.handleSearch(event.target.value)}/>
             <div className="search"></div>
             </div>
 
           </div>
         </Header>
         <Container>
+          <h2 className="container__title">Löydä tuotteita, joista tulee vähemmän muovia!</h2>
 
           {cards.map((card) => {
             const { id, img, productName, productFamily, brand, shops} = card
@@ -88,11 +89,11 @@ class App extends Component {
           {cards.length === 0 && <p>Ei tuloksia</p>}
         </Container>
         <Footer>
-          <p>Kerro meille tällä lomakkeella, jos tiedät tuotteita, joista tulee vähemmän muovia <a href="https://goo.gl/forms/n7MZSDlw2KOSK1b62">tämän lomakella</a></p>
+          <p>Kerro meille <a href="https://goo.gl/forms/n7MZSDlw2KOSK1b62">palautelomakkeella</a>, jos tiedät tuotteita, joista tulee vähemmän muovia.</p>
           <p className="footer-text">
             <Link href="https://github.com/minimizeplastic">
               {" "}
-              (github){" "}
+              (GitHub){" "}
             </Link>
           </p>
         </Footer>
