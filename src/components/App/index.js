@@ -1,61 +1,13 @@
 import React, { Component } from "react";
-import styled from "styled-components";
 import "./App.css";
-import { cards } from './data';
+import { cards } from '../../data/products';
 import Fuse from 'fuse.js';
-
-const Wrapper = styled.div`
-margin:0;
-width:100%;
-height: 100vh;
-`;
-
-const Header = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-auto-flow: column;
-  align-items: center;
-  grid-gap: 10px;
-  background-color: #388E3C;
-  color: white;
-  padding: 10px;
-
-  @media(max-width:600px){
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-  }
-`;
-
-const Footer = styled.div`
-  width:98%;
-  border-top: 4px solid  #388E3C;
-  padding: 10px;
-  margin:20px auto;
-`;
-
-const Container = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px;
-  margin: 20px;
-  min-height: 60vh;
-`;
-
-const Card = styled.div`
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  display: grid;
-  grid-template-columns: 150px 1fr;
-  grid-gap: 10px;
-  align-items: center;
-  font-weight: 100;
-`;
-
-const Link = styled.a`
-  text-decoration: none;
-`;
-
+import { Footer } from "../Footer";
+import { Container } from "../Container";
+import { Wrapper } from "../Wrapper";
+import { Header } from "../Header";
+import { Card } from "../Card";
+import { Link } from "../Link/Link";
 
 class App extends Component {
   constructor(props) {
@@ -87,7 +39,7 @@ class App extends Component {
     };
 
     this.searchIndex = new Fuse(cards, options);
-    
+
   }
 
   handleSearch = (searchText) => {
@@ -114,11 +66,11 @@ class App extends Component {
             <input placeholder="suodataa esim. pavu" type="text" onChange={(event) => this.handleSearch(event.target.value)}/>
             <div className="search"></div>
             </div>
-            
+
           </div>
         </Header>
         <Container>
-          
+
           {cards.map((card) => {
             const { id, img, productName, productFamily, brand, shops} = card
             return (
