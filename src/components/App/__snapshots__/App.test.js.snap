@@ -1,0 +1,961 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> with Snapshot Testing renders the same way 1`] = `
+<div
+  className="sc-htpNat izSLNe"
+>
+  <div
+    className="sc-bxivhb cBUHyF"
+  >
+    <div
+      className="header-container"
+    >
+      <h1
+        className="header__title"
+      >
+        Minimoi Muovi
+      </h1>
+      <div
+        className="search-container"
+      >
+        <label
+          htmlFor="search"
+        />
+        <input
+          onChange={[Function]}
+          placeholder="hae tästä esim. pavut"
+          type="text"
+        />
+        <div
+          className="search"
+        />
+      </div>
+    </div>
+  </div>
+  <h2
+    className="container__title"
+  >
+    Löydä tuotteita, joista tulee vähemmän muovia!
+  </h2>
+  <div
+    className="sc-bwzfXH bXDeqZ"
+  >
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Suuret valkoiset luomupavut"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2feko-stora-vita-bonor-285g-2.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Suuret valkoiset luomupavut
+        </h3>
+        <p
+          className="card__family"
+        >
+          Pavut
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Luomu kidneypavut"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2feko-kidneybonor-285g-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Luomu kidneypavut
+        </h3>
+        <p
+          className="card__family"
+        >
+          Pavut
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Luomu papumix"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2feko-bonmix-285g-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Luomu papumix
+        </h3>
+        <p
+          className="card__family"
+        >
+          Pavut
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Mustapavut"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2fsvarta-bonor-285g-ny2.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Mustapavut
+        </h3>
+        <p
+          className="card__family"
+        >
+          Pavut
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Mungpavut (kuivat)"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2fmungbonor-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Mungpavut (kuivat)
+        </h3>
+        <p
+          className="card__family"
+        >
+          Pavut
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Ruskeita papuja"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2fbruna-bonor-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Ruskeita papuja
+        </h3>
+        <p
+          className="card__family"
+        >
+          Pavut
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Vihreät linssit"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2fgrona-linser-285g-ny2.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Vihreät linssit
+        </h3>
+        <p
+          className="card__family"
+        >
+          Linssit
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Vihreät linssit (kuivat)"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2fgrona-linser-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Vihreät linssit (kuivat)
+        </h3>
+        <p
+          className="card__family"
+        >
+          Linssit
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Punaiset linssit"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2froda-linser-290g-ny2.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Punaiset linssit
+        </h3>
+        <p
+          className="card__family"
+        >
+          Linssit
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Luomu kikherneet"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2feko-kikartor-290g-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Luomu kikherneet
+        </h3>
+        <p
+          className="card__family"
+        >
+          Herneet
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Vihreät luomuherneet"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2feko-grona-arter-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Vihreät luomuherneet
+        </h3>
+        <p
+          className="card__family"
+        >
+          Herneet
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Kikherneet (kuivat)"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2fkikarter-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Kikherneet (kuivat)
+        </h3>
+        <p
+          className="card__family"
+        >
+          Herneet
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Auringonkukan siemenet"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2fsolroskarnor-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Auringonkukan siemenet
+        </h3>
+        <p
+          className="card__family"
+        >
+          Siemenet
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Pellavansiemenet (kokonaisina)"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2flinfro-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Pellavansiemenet (kokonaisina)
+        </h3>
+        <p
+          className="card__family"
+        >
+          Siemenet
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Kuorettomat seesaminsiemenet"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2fskalat-sesamfro-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Kuorettomat seesaminsiemenet
+        </h3>
+        <p
+          className="card__family"
+        >
+          Siemenet
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Kuorimattomat seesaminsiemenet"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2foskalat-sesamfro-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Kuorimattomat seesaminsiemenet
+        </h3>
+        <p
+          className="card__family"
+        >
+          Siemenet
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Rouhitut pellavansiemenet"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2fkrossat-linsfro-260g-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Rouhitut pellavansiemenet
+        </h3>
+        <p
+          className="card__family"
+        >
+          Siemenet
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Vihreät luomuherneet"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2feko-grona-arter-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Vihreät luomuherneet
+        </h3>
+        <p
+          className="card__family"
+        >
+          Vihannekset
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Luomu tomaattimurska"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2feko-krossade-tomater-300g-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Luomu tomaattimurska
+        </h3>
+        <p
+          className="card__family"
+        >
+          Vihannekset
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Luomumaissi"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2feko-majskorn-280g-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Luomumaissi
+        </h3>
+        <p
+          className="card__family"
+        >
+          Vihannekset
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Salsa Original"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2fprodukt%2fsalsa-original-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Salsa Original
+        </h3>
+        <p
+          className="card__family"
+        >
+          Salsakastikkeet
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Chili sin Carne"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2fprodukt%2fchili-sin-carne-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Chili sin Carne
+        </h3>
+        <p
+          className="card__family"
+        >
+          Salsakastikkeet
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Bulgur-vehnää"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2fbulgur-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Bulgur-vehnää
+        </h3>
+        <p
+          className="card__family"
+        >
+          Ruokajyvät ja suurimot
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Couscous (täysjyvä)"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2ffullkorns-couscous-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Couscous (täysjyvä)
+        </h3>
+        <p
+          className="card__family"
+        >
+          Ruokajyvät ja suurimot
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Kokonaisia tattarisuurimoita"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2fhelt-bovete-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Kokonaisia tattarisuurimoita
+        </h3>
+        <p
+          className="card__family"
+        >
+          Ruokajyvät ja suurimot
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Kvinoa"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2fquinoa-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Kvinoa
+        </h3>
+        <p
+          className="card__family"
+        >
+          Ruokajyvät ja suurimot
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX lltaSK"
+    >
+      <img
+        alt="Ohralisukkeet"
+        className="card__img"
+        src="https://www.gogreen.fi/Handlers/TransformedImage.ashx?w=377&h=406&url=%2fGlobal%2fprodukter%2fkorngryn-ny.png"
+      />
+      <div
+        className="card__details"
+      >
+        <h3
+          className="product__title"
+        >
+          Ohralisukkeet
+        </h3>
+        <p
+          className="card__family"
+        >
+          Ruokajyvät ja suurimot
+        </p>
+        <p
+          className="card__brand"
+        >
+          GoGreen
+        </p>
+        <p
+          className="card__brand"
+        >
+          S-market, K-market
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bdVaJa bNcPNg"
+  >
+    <p>
+      Kerro meille 
+      <a
+        href="https://goo.gl/forms/n7MZSDlw2KOSK1b62"
+      >
+        palautelomakkeella
+      </a>
+      , jos tiedät tuotteita, joista tulee vähemmän muovia.
+    </p>
+    <p
+      className="footer-text"
+    >
+      <a
+        className="sc-EHOje kFERna"
+        href="https://github.com/minimizeplastic"
+      >
+         
+        (GitHub)
+         
+      </a>
+    </p>
+  </div>
+</div>
+`;
